@@ -12,13 +12,13 @@
 <section id="welcome">
     <header>
         <img src="{% static 'blog/images/ahmed.jpg' %}" alt= 'Ahmed-The Blog Author'/>
-        <h2>Blogal</h2>
+        <h2>Mahdi's Blog</h2>
     </header>
-    <p> Hi, My name is Ahmed Mahdi and i love travelling</p> 
+    <p> Hi, My name is Ahmed Mahdi and welcome to my blog site</p> 
 </section>
 
 <section id="latest-posts">
-    <h2> My Latest Visits <h2>
+    <h2> Latest Blogs <h2>
         <ul>
             {%for post in latest_three%}
             {%include 'includes/post_detail_snippet.html'%}

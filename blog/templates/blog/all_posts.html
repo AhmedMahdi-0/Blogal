@@ -1,6 +1,6 @@
 {% extends 'base.html'%}
 {%load static%}
-{%block title %} My Visits {%endblock%}
+{%block title %} All Blogs {%endblock%}
 {%block css_files%}
  <link rel='stylesheet' href="{% static 'blog/post.css' %}" />
  <link rel='stylesheet' href="{% static 'blog/all_posts.css' %}"/>
@@ -8,7 +8,7 @@
 {%block body%}
 <section id='all-posts'>
 
-<h2> All My Visits </h2>
+<h2> All Blogs </h2>
 <ul>
     {%for post in posts%}
     {%include 'includes/post_detail_snippet.html'%}
