@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block title %} My Visits {%endblock%}
+{%block css_files%}
+ <link rel='stylesheet' href="{% static 'blog/post.css' %}" />
+ <link rel='stylesheet' href="{% static 'blog/all_posts.css' %}"/>
+{%endblock%}
+{%block body%}
+<section id='all-posts'>
+
+<h2> All My Visits </h2>
+<ul>
+    {%for post in posts%}
+    {%include 'includes/post_detail_snippet.html'%}
+    {%endfor%}
+</ul>
+
+
+</section>
+{%endblock%}

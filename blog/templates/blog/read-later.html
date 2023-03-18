@@ -1,0 +1,21 @@
+{%extends 'base.html'%}
+{%load static%}
+
+
+{%block title%}  Read-Later Posts {%endblock%} 
+{%block css_files%} <link rel='stylesheet' href="{%static 'blog/stored_posts.css'%}"> {%endblock%}
+{%block body%}  
+<section id='stored-posts'>
+  {%if not has_posts%}
+      <p> You dont have any Read-Later posts. </p> 
+  {%else%}
+      <ul>
+     {%for post in posts %}
+      <li>
+             <p><a href="{% url 'post-detail' post.slug %}"  > {{post.titlee}}</a> </p>
+      </li>
+  {%endfor%}
+   </ul>
+ {%endif%}
+</section>
+{%endblock%}
