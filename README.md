@@ -19,7 +19,9 @@ Blogal has 4 main pages:
     
     - Post-Detail Page : contains detailed information about the selected blog, the author and a comment section for the users to post their opnions about the blog.
     
+    
     ![image](https://user-images.githubusercontent.com/47431372/226135058-b68637d5-1834-427b-9897-6de15ecadf3d.png)
+    
     
     
     ![image](https://user-images.githubusercontent.com/47431372/226135079-3db65ef1-c89b-4bd8-a903-f931a990c276.png)
@@ -27,6 +29,8 @@ Blogal has 4 main pages:
     
     
     - Read-later Page : a collection of all the blogs which was sent to this page by the users.
+    
+    
         
         ![image](https://user-images.githubusercontent.com/47431372/226135173-024a0ac2-3f59-4c35-aa0d-415324a64107.png)
 
