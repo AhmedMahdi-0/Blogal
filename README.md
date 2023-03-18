@@ -6,5 +6,6 @@ The project was implemented using django as a framework and the built-in sqlite 
 Blogal has 4 main pages:
     
     - Home Page : contains information about the admin and the latest three blogs with a small summary of the whole blog.
-    - All-Posts Page : contains all the admins visits in Egypt.
-    - Post-Detail Page : contains all the information about the post and the 
+    - All-Posts Page : contains all site's blogs.
+    - Post-Detail Page : contains detailed information about the selected blog and a comment section for the users to post their opnions about the blog.
+    - Read-later Page : a collection of all the blogs which was sent to this page by the users.
