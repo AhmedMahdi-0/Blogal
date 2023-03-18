@@ -87,7 +87,7 @@ class PostView(View):
 class ReadLaterView(View):
      def get(self,request):
         stored_slugs=request.session.get('stored_slugs')
-        if  len(stored_slugs)==0:
+        if  stored_slugs is None or len(stored_slugs)==0:
             has_posts=False
             posts=[]
         else:
