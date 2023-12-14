@@ -1,7 +1,5 @@
 # Blogal
 
-Site link : https://web-production-65f5.up.railway.app
-
 Blog site that features my latest visits in Egypt. 
 
 The project was implemented using django as a framework and the built-in sqlite as a database.
