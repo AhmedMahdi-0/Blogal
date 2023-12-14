@@ -20,7 +20,7 @@ Blogal has 4 main pages:
    ![image](https://user-images.githubusercontent.com/47431372/226134977-9c31e6ba-3eaa-4e65-9a8f-8c1bbe6b2ad9.png)
 
     
-    - Post-Detail Page : contains detailed information about the selected blog, the author and a comment section for the users to post their opnions about the blog.
+    - Post-Detail Page : contains detailed information about the selected blog, the author and a comment section for the users to post their opinions about the blog.
     
     
    ![image](https://user-images.githubusercontent.com/47431372/226135058-b68637d5-1834-427b-9897-6de15ecadf3d.png)
